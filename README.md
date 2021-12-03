@@ -15,17 +15,18 @@ You can find the back-end API project on this [link](https://github.com/petudeve
 
 
 ## Getting Started
-
 To get a local copy up and running follow these simple example steps.
 
+- Run on your terminal 
 ```
-https://github.com/petudeveloper/-hello-react-front-end.git
+git clone https://github.com/petudeveloper/hello-rails-back-end.git
+cd hello-rails-back-end
 ```
 
 ### Prerequisites
 - Windows, Mac, or Linux machine.
 - Web browser.
-- Postgres installed and set up.
+- Postgres. Official documentation [here](https://www.postgresql.org/download/).
 
 ### Install
 ```
