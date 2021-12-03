@@ -2,7 +2,7 @@
 
 # Hello Rails React
 
-> This is a react and redux web app that displays a random greeting from an API. The database stores greetings and the back end API returns a random greeting for each request. Here you can find the back-end API project.
+> This is a react and redux web app that displays a random greeting from an API. The database stores greetings and the back end API returns a random greeting for each request.
 
 ## Back End
 
@@ -19,8 +19,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Run on your terminal 
 ```
-git clone https://github.com/petudeveloper/hello-rails-back-end.git
-cd hello-rails-back-end
+git clone https://github.com/petudeveloper/-hello-react-front-end.git
+cd -hello-react-front-end.git
 ```
 
 ### Prerequisites
