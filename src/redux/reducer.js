@@ -15,19 +15,17 @@ export const fetchData = () => ({
 export const fetchApiData = () => (next) => (action) => {
   switch (action.type) {
     case FETCH_API_DATA:
-      fetch(`http://localhost:4000/api/v1/greetings`, {
+      fetch('http://localhost:4000/api/v1/greetings', {
         method: 'GET',
         mode: 'cors',
         headers: {
-          'Accept': 'application/json',
+          Accept: 'application/json',
           'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*' 
-          },
+          'Access-Control-Allow-Origin': '*',
+        },
       })
         .then((response) => response.json())
-        .then((data) => {
-          return next(loadData(data));
-        });
+        .then((data) => next(loadData(data)));
       break;
     default:
       return next(action);
