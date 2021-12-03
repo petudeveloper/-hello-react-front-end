@@ -6,7 +6,7 @@
 
 ## Back End
 
-In this link, you can find the back-end API project.
+You can find the back-end API project on this [link](https://github.com/petudeveloper/hello-rails-back-end).
 
 ## Built With
 
